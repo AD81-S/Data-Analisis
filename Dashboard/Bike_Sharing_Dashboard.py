@@ -32,7 +32,8 @@ def create_Musim_Mendukung(df): # Buat Fungsi create_Cuaca_mendukung
     }, inplace=True)
     return Musim_Mendukung_df
 
-All_df = pd.read_csv("All_data.csv") # Simpan All_data.csv --> All_df
+# All_df = pd.read_csv("All_data.csv") # Simpan All_data.csv --> All_df
+All_df = pd.read_csv("https://github.com/AD81-S/Data-Analisis/blob/ac5d6c7de3415e50078354260fbd5d4ed4e21be8/Dashboard/All_data.csv") # Simpan All_data.csv --> All_df
 
 # filter fungsi yang sudah dibuat
 Cuaca_Mendukung_df = create_Cuaca_Mendukung(All_df) 
